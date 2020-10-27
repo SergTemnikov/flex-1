@@ -95,7 +95,7 @@ body {
 }
 
 .header__content {
-    padding: 34px 0px 23px;
+    padding: 34px 0 23px;
 }
 
 .header__content-inner {
@@ -112,7 +112,7 @@ body {
     line-height: 36px;
     color: #323232;
     border: 1px solid transparent;
-    padding: 0px 16px;
+    padding: 0 16px;
     transition: all 0.3s;
 }
 
@@ -231,7 +231,7 @@ body {
 }
 
 .services {
-    padding: 50px 0px 30px;
+    padding: 50px 0 30px;
 }
 
 .services__top,
@@ -255,7 +255,7 @@ body {
     width: 100px;
     height: 2px;
     background-color: #ffc222;
-    left: 0px;
+    left: 0;
     top: 11px;
 }
 
@@ -414,8 +414,7 @@ body {
 
 .form__box-inner label,
 .form__box-inner input,
-.form__box-inner textarea,
-.form__box-inner select {
+.form__box-inner textarea {
     display: block;
     width: 100%;
 }
@@ -431,7 +430,7 @@ body {
     outline: none;
     height: 40px;
     border: 2px solid #e6e6e6;
-    padding: 0px 10px;
+    padding: 0 10px;
 }
 
 .form__box-inner select {
@@ -441,11 +440,22 @@ body {
     padding-left: 17px;
 }
 
+.form__box-inner .jq-selectbox.jqselect {
+    display: block;
+    width: 100%;
+}
+
 .form__box-inner textarea {
     outline: none;
     border: 2px solid #e6e6e6;
     padding: 10px;
     height: 207px;
-    margin-bottom: 38px;
+    margin-bottom: 42px;
     resize: none;
+}
+
+.form__box-inner button {
+    background-color: transparent;
+    color: #282828;
+    float: right;
 }
