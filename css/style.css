@@ -549,15 +549,15 @@ body {
 }
 
 .advantages__inner {
+    color: white;
     text-align: center;
-    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
 }
 
 .advantages__item {
-    width: 340px;
-    text-align: center;
+    max-width: 340px;
+    padding: 0px 20px;
 }
 
 .advantages__title {
@@ -724,12 +724,12 @@ body {
 .footer__map {
     padding-top: 10px;
     max-width: 630px;
+    width: 100%;
 }
 
-/*.footer__map iframe {
+.footer__map iframe {
     width: 100%;
-    height: 250px;
-}*/
+}
 
 .footer__inner .header__btn {
     float: none;
@@ -794,16 +794,13 @@ body {
 }
 
 .footer__copy {
-    height: 42px;
     background-color: #303030;
     text-align: center;
-    font-family: 'Roboto', Sans-serif;
     font-size: 12px;
     line-height: 24px;
-    letter-spacing: 0.50px;
-    color: white;
+    padding: 8px 0;
     font-weight: 400;
-    padding: 8px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #modal input {
